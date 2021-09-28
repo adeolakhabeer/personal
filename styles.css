@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+body {
+  background-color: #f8f8f8;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* header begins */
+
+.mainHeader {
+  background-color: rgba(126, 184, 218, 1);
+  margin-bottom: 5rem;
+}
+
+/* navebar begin*/
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  padding: 15px 8px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.navContainer .logo {
+  width: 30px;
+  margin-right: auto;
+  cursor: pointer;
+}
+.navContainer #navBarLinks {
+  flex: 1;
+  text-align: right;
+}
+.navContainer #navBarLinks li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.navContainer #navBarLinks li a {
+  text-decoration: none;
+  color: white;
+}
+#navBarLinks {
+  margin-right: 20px;
+}
+.btn {
+  display: flex;
+}
+.inBtn {
+  padding: 10px 30px;
+  background-color: white;
+  color: rgba(126, 184, 218, 1);
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgba(126, 184, 218, 1);
+  transition: all 0.3s ease 0s;
+  margin-right: 5px;
+}
+.upBtn {
+  padding: 10px 30px;
+  background-color: rgba(255, 165, 216, 1);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+/* navbar end */
+
+#hiThere {
+  background-color: white;
+  display: inline;
+  padding: 5px 10px;
+}
+#hireMe {
+  padding: 10px 30px;
+  background-color: rgba(255, 165, 216, 1);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+#viewPortfolio {
+  padding: 10px 30px;
+  background-color: white;
+  color: rgba(126, 184, 218, 1);
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+#viewPortfolio:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#hireMe:hover {
+  background-color: rgba(255, 165, 216, 0.8);
+  color: white;
+}
+.headerContainer {
+  width: 1200px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+  margin: 20px auto;
+}
+#landingContent > h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  line-height: 1;
+}
+#landingContent > h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+#landingContent > p {
+  margin-bottom: 30px;
+}
+#landingContent {
+  flex: 1;
+}
+
+.card {
+  height: 600px;
+  margin-left: 40px;
+  flex: 1;
+}
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* header ends */
+
+/* body begins */
+
+.aboutContainer {
+  width: 1200px;
+  /* height: 800px; */
+  display: flex;
+  height: auto;
+  /* background-color: #7eb8da; */
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  justify-content: space-between;
+}
+.aboutCard {
+  /* width: 400px; */
+  height: 600px;
+  flex: 1;
+  margin-right: 40px;
+}
+#aboutImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutContent {
+  flex: 1;
+}
+#aboutLinks ul {
+  display: flex;
+  margin-bottom: 2rem;
+}
+#aboutLinks ul li {
+  list-style: none;
+}
+#aboutLinks ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 165, 216, 1);
+  padding: 10px 30px;
+  margin-right: 10px;
+}
+#aboutLinks ul li a:hover {
+  background-color: rgba(126, 184, 218, 0.8);
+  color: white;
+}
+.aboutContent h2 {
+  color: rgba(126, 184, 218, 1);
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.aboutContent p {
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+  color: gray;
+}
+.aboutContent h4 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+/* body end */
+
+.serviceContainer {
+  /* margin: 50px; */
+  /* width: 1200px; */
+  justify-content: center;
+  justify-content: space-between;
+  /* margin: 50px auto; */
+  background-color: #e6e3e3;
+  /* flex-wrap: wrap; */
+}
+.serviceContainerH3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.serviceContainerH6 {
+  font-weight: 700;
+  font-size: 13px;
+  color: rgba(126, 184, 218, 1);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+.servicesContact {
+  text-align: center;
+  color: #999999;
+}
+.servicesContact h4 {
+  margin-bottom: 20px;
+}
+.servicesContact h4 a {
+  color: rgba(126, 184, 218, 1);
+  text-decoration: none;
+}
+.services {
+  display: flex;
+  margin: 30px auto;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: center; */
+}
+.services div {
+  background-color: white;
+  margin: 0 10px;
+  padding: 30px 30px;
+}
+.services img {
+  width: 50px;
+}
+.services button {
+  margin: 30px 0 0 0;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgba(255, 165, 216, 1);
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.services button:hover {
+  background-color: rgba(126, 184, 218, 0.8);
+}
+
+.services h3 {
+  color: rgba(126, 184, 218, 1);
+  margin: 12px 0;
+}
+
+.services p {
+  color: #999999;
+  line-height: 1.4rem;
+  margin-bottom: 50px;
+}
